@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		628493C91D0EE6C600C4BDA9 /* M13BadgeViewFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 628493C81D0EE6C600C4BDA9 /* M13BadgeViewFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		628493CD1D0EE6C600C4BDA9 /* M13BadgeView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 628493C61D0EE6C600C4BDA9 /* M13BadgeView.framework */; };
+		628493CE1D0EE6C600C4BDA9 /* M13BadgeView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 628493C61D0EE6C600C4BDA9 /* M13BadgeView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		628493D31D0EE6DD00C4BDA9 /* M13BadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA08ED8718B58A0500A7FD9B /* M13BadgeView.m */; };
+		628493D41D0EE6E700C4BDA9 /* M13BadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = CA08ED8618B58A0500A7FD9B /* M13BadgeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA08ED4E18B5898100A7FD9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA08ED4D18B5898100A7FD9B /* Foundation.framework */; };
 		CA08ED5218B5898100A7FD9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA08ED5118B5898100A7FD9B /* UIKit.framework */; };
 		CA08ED5818B5898100A7FD9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA08ED5618B5898100A7FD9B /* InfoPlist.strings */; };
@@ -21,11 +26,17 @@
 		CA08ED7218B5898100A7FD9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA08ED5118B5898100A7FD9B /* UIKit.framework */; };
 		CA08ED7A18B5898100A7FD9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA08ED7818B5898100A7FD9B /* InfoPlist.strings */; };
 		CA08ED7C18B5898100A7FD9B /* M13BadgeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA08ED7B18B5898100A7FD9B /* M13BadgeViewTests.m */; };
-		CA08ED8818B58A0500A7FD9B /* M13BadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA08ED8718B58A0500A7FD9B /* M13BadgeView.m */; };
 		CA58BD7418B93C51002E6EB9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA58BD7318B93C51002E6EB9 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		628493CB1D0EE6C600C4BDA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA08ED4218B5898100A7FD9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 628493C51D0EE6C600C4BDA9;
+			remoteInfo = M13BadgeViewFramework;
+		};
 		CA08ED7318B5898100A7FD9B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CA08ED4218B5898100A7FD9B /* Project object */;
@@ -35,7 +46,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		628493D21D0EE6C600C4BDA9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				628493CE1D0EE6C600C4BDA9 /* M13BadgeView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		628493C61D0EE6C600C4BDA9 /* M13BadgeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M13BadgeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		628493C81D0EE6C600C4BDA9 /* M13BadgeViewFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M13BadgeViewFramework.h; sourceTree = "<group>"; };
+		628493CA1D0EE6C600C4BDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA08ED4A18B5898100A7FD9B /* M13BadgeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M13BadgeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA08ED4D18B5898100A7FD9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CA08ED5118B5898100A7FD9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -61,10 +89,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		628493C21D0EE6C600C4BDA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CA08ED4718B5898100A7FD9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				628493CD1D0EE6C600C4BDA9 /* M13BadgeView.framework in Frameworks */,
 				CA58BD7418B93C51002E6EB9 /* QuartzCore.framework in Frameworks */,
 				CA08ED5218B5898100A7FD9B /* UIKit.framework in Frameworks */,
 				CA08ED4E18B5898100A7FD9B /* Foundation.framework in Frameworks */,
@@ -84,11 +120,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		628493C71D0EE6C600C4BDA9 /* M13BadgeViewFramework */ = {
+			isa = PBXGroup;
+			children = (
+				628493C81D0EE6C600C4BDA9 /* M13BadgeViewFramework.h */,
+				628493CA1D0EE6C600C4BDA9 /* Info.plist */,
+			);
+			path = M13BadgeViewFramework;
+			sourceTree = "<group>";
+		};
 		CA08ED4118B5898100A7FD9B = {
 			isa = PBXGroup;
 			children = (
 				CA08ED5318B5898100A7FD9B /* M13BadgeView */,
 				CA08ED7518B5898100A7FD9B /* M13BadgeViewTests */,
+				628493C71D0EE6C600C4BDA9 /* M13BadgeViewFramework */,
 				CA08ED4C18B5898100A7FD9B /* Frameworks */,
 				CA08ED4B18B5898100A7FD9B /* Products */,
 			);
@@ -99,6 +145,7 @@
 			children = (
 				CA08ED4A18B5898100A7FD9B /* M13BadgeView.app */,
 				CA08ED6E18B5898100A7FD9B /* M13BadgeViewTests.xctest */,
+				628493C61D0EE6C600C4BDA9 /* M13BadgeView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,7 +217,37 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		628493C31D0EE6C600C4BDA9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				628493C91D0EE6C600C4BDA9 /* M13BadgeViewFramework.h in Headers */,
+				628493D41D0EE6E700C4BDA9 /* M13BadgeView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		628493C51D0EE6C600C4BDA9 /* M13BadgeViewFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 628493D11D0EE6C600C4BDA9 /* Build configuration list for PBXNativeTarget "M13BadgeViewFramework" */;
+			buildPhases = (
+				628493C11D0EE6C600C4BDA9 /* Sources */,
+				628493C21D0EE6C600C4BDA9 /* Frameworks */,
+				628493C31D0EE6C600C4BDA9 /* Headers */,
+				628493C41D0EE6C600C4BDA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M13BadgeViewFramework;
+			productName = M13BadgeViewFramework;
+			productReference = 628493C61D0EE6C600C4BDA9 /* M13BadgeView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		CA08ED4918B5898100A7FD9B /* M13BadgeView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA08ED7F18B5898100A7FD9B /* Build configuration list for PBXNativeTarget "M13BadgeView" */;
@@ -178,10 +255,12 @@
 				CA08ED4618B5898100A7FD9B /* Sources */,
 				CA08ED4718B5898100A7FD9B /* Frameworks */,
 				CA08ED4818B5898100A7FD9B /* Resources */,
+				628493D21D0EE6C600C4BDA9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				628493CC1D0EE6C600C4BDA9 /* PBXTargetDependency */,
 			);
 			name = M13BadgeView;
 			productName = M13BadgeView;
@@ -212,9 +291,13 @@
 		CA08ED4218B5898100A7FD9B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Brandon McQuilkin";
 				TargetAttributes = {
+					628493C51D0EE6C600C4BDA9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3RCGQ2RRJJ;
+					};
 					CA08ED4918B5898100A7FD9B = {
 						DevelopmentTeam = 3RCGQ2RRJJ;
 					};
@@ -238,11 +321,19 @@
 			targets = (
 				CA08ED4918B5898100A7FD9B /* M13BadgeView */,
 				CA08ED6D18B5898100A7FD9B /* M13BadgeViewTests */,
+				628493C51D0EE6C600C4BDA9 /* M13BadgeViewFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		628493C41D0EE6C600C4BDA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CA08ED4818B5898100A7FD9B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -265,11 +356,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		628493C11D0EE6C600C4BDA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				628493D31D0EE6DD00C4BDA9 /* M13BadgeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CA08ED4618B5898100A7FD9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA08ED8818B58A0500A7FD9B /* M13BadgeView.m in Sources */,
 				CA08ED6718B5898100A7FD9B /* ViewController.m in Sources */,
 				CA08ED5E18B5898100A7FD9B /* AppDelegate.m in Sources */,
 				CA08ED5A18B5898100A7FD9B /* main.m in Sources */,
@@ -287,6 +385,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		628493CC1D0EE6C600C4BDA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 628493C51D0EE6C600C4BDA9 /* M13BadgeViewFramework */;
+			targetProxy = 628493CB1D0EE6C600C4BDA9 /* PBXContainerItemProxy */;
+		};
 		CA08ED7418B5898100A7FD9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CA08ED4918B5898100A7FD9B /* M13BadgeView */;
@@ -330,6 +433,60 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		628493CF1D0EE6C600C4BDA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = M13BadgeViewFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrandonMcQuilkin.M13BadgeViewNew.M13BadgeViewFramework;
+				PRODUCT_NAME = M13BadgeView;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		628493D01D0EE6C600C4BDA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = M13BadgeViewFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrandonMcQuilkin.M13BadgeViewNew.M13BadgeViewFramework;
+				PRODUCT_NAME = M13BadgeView;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		CA08ED7D18B5898100A7FD9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -348,6 +505,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -387,6 +546,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -410,6 +570,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "M13BadgeView/M13BadgeView-Prefix.pch";
 				INFOPLIST_FILE = "M13BadgeView/M13BadgeView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BrandonMcQuilkin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -423,6 +586,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "M13BadgeView/M13BadgeView-Prefix.pch";
 				INFOPLIST_FILE = "M13BadgeView/M13BadgeView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BrandonMcQuilkin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -444,6 +610,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "M13BadgeViewTests/M13BadgeViewTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BrandonMcQuilkin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -462,6 +629,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "M13BadgeView/M13BadgeView-Prefix.pch";
 				INFOPLIST_FILE = "M13BadgeViewTests/M13BadgeViewTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BrandonMcQuilkin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -471,6 +639,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		628493D11D0EE6C600C4BDA9 /* Build configuration list for PBXNativeTarget "M13BadgeViewFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				628493CF1D0EE6C600C4BDA9 /* Debug */,
+				628493D01D0EE6C600C4BDA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		CA08ED4518B5898100A7FD9B /* Build configuration list for PBXProject "M13BadgeView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
