@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "628493C51D0EE6C600C4BDA9"
-               BuildableName = "M13BadgeViewFramework.framework"
+               BuildableName = "M13BadgeView.framework"
                BlueprintName = "M13BadgeViewFramework"
                ReferencedContainer = "container:M13BadgeView.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "628493C51D0EE6C600C4BDA9"
-            BuildableName = "M13BadgeViewFramework.framework"
+            BuildableName = "M13BadgeView.framework"
             BlueprintName = "M13BadgeViewFramework"
             ReferencedContainer = "container:M13BadgeView.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "628493C51D0EE6C600C4BDA9"
-            BuildableName = "M13BadgeViewFramework.framework"
+            BuildableName = "M13BadgeView.framework"
             BlueprintName = "M13BadgeViewFramework"
             ReferencedContainer = "container:M13BadgeView.xcodeproj">
          </BuildableReference>

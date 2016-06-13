@@ -12,6 +12,8 @@
 		628493CE1D0EE6C600C4BDA9 /* M13BadgeView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 628493C61D0EE6C600C4BDA9 /* M13BadgeView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		628493D31D0EE6DD00C4BDA9 /* M13BadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA08ED8718B58A0500A7FD9B /* M13BadgeView.m */; };
 		628493D41D0EE6E700C4BDA9 /* M13BadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = CA08ED8618B58A0500A7FD9B /* M13BadgeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		628493EB1D0EF5EB00C4BDA9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA58BD7318B93C51002E6EB9 /* QuartzCore.framework */; };
+		628493EC1D0EF5EF00C4BDA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA08ED5118B5898100A7FD9B /* UIKit.framework */; };
 		CA08ED4E18B5898100A7FD9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA08ED4D18B5898100A7FD9B /* Foundation.framework */; };
 		CA08ED5218B5898100A7FD9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA08ED5118B5898100A7FD9B /* UIKit.framework */; };
 		CA08ED5818B5898100A7FD9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA08ED5618B5898100A7FD9B /* InfoPlist.strings */; };
@@ -93,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				628493EC1D0EF5EF00C4BDA9 /* UIKit.framework in Frameworks */,
+				628493EB1D0EF5EB00C4BDA9 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,7 +525,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -555,7 +559,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -646,6 +650,7 @@
 				628493D01D0EE6C600C4BDA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA08ED4518B5898100A7FD9B /* Build configuration list for PBXProject "M13BadgeView" */ = {
 			isa = XCConfigurationList;
