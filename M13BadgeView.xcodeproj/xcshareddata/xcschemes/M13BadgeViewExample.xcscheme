@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CA08ED4918B5898100A7FD9B"
-               BuildableName = "M13BadgeView.app"
-               BlueprintName = "M13BadgeView"
+               BuildableName = "M13BadgeViewExample.app"
+               BlueprintName = "M13BadgeViewExample"
                ReferencedContainer = "container:M13BadgeView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CA08ED4918B5898100A7FD9B"
-            BuildableName = "M13BadgeView.app"
-            BlueprintName = "M13BadgeView"
+            BuildableName = "M13BadgeViewExample.app"
+            BlueprintName = "M13BadgeViewExample"
             ReferencedContainer = "container:M13BadgeView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -66,8 +66,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CA08ED4918B5898100A7FD9B"
-            BuildableName = "M13BadgeView.app"
-            BlueprintName = "M13BadgeView"
+            BuildableName = "M13BadgeViewExample.app"
+            BlueprintName = "M13BadgeViewExample"
             ReferencedContainer = "container:M13BadgeView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -85,8 +85,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CA08ED4918B5898100A7FD9B"
-            BuildableName = "M13BadgeView.app"
-            BlueprintName = "M13BadgeView"
+            BuildableName = "M13BadgeViewExample.app"
+            BlueprintName = "M13BadgeViewExample"
             ReferencedContainer = "container:M13BadgeView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

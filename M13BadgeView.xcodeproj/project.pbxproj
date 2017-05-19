@@ -7,23 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		628493C91D0EE6C600C4BDA9 /* M13BadgeViewFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 628493C81D0EE6C600C4BDA9 /* M13BadgeViewFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		626E03031ECEE4B100002CB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 626E02F51ECEE4B100002CB5 /* AppDelegate.m */; };
+		626E03041ECEE4B100002CB5 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 626E02F61ECEE4B100002CB5 /* Main_iPad.storyboard */; };
+		626E03051ECEE4B100002CB5 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 626E02F81ECEE4B100002CB5 /* Main_iPhone.storyboard */; };
+		626E03061ECEE4B100002CB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 626E02FA1ECEE4B100002CB5 /* InfoPlist.strings */; };
+		626E03071ECEE4B100002CB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 626E02FC1ECEE4B100002CB5 /* Images.xcassets */; };
+		626E03081ECEE4B100002CB5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 626E02FD1ECEE4B100002CB5 /* Info.plist */; };
+		626E03091ECEE4B100002CB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 626E02FF1ECEE4B100002CB5 /* main.m */; };
+		626E030A1ECEE4B100002CB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 626E03011ECEE4B100002CB5 /* ViewController.m */; };
+		626E030F1ECEE4C300002CB5 /* M13BadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 626E030C1ECEE4BD00002CB5 /* M13BadgeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		626E03101ECEE4CB00002CB5 /* M13BadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 626E030D1ECEE4BD00002CB5 /* M13BadgeView.m */; };
+		626E03111ECEE4D500002CB5 /* M13BadgeViewFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 626E02F11ECEE4B100002CB5 /* M13BadgeViewFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		626E03141ECEE5E700002CB5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 626E03131ECEE5E700002CB5 /* XCTest.framework */; };
 		628493CD1D0EE6C600C4BDA9 /* M13BadgeView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 628493C61D0EE6C600C4BDA9 /* M13BadgeView.framework */; };
 		628493CE1D0EE6C600C4BDA9 /* M13BadgeView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 628493C61D0EE6C600C4BDA9 /* M13BadgeView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		628493D31D0EE6DD00C4BDA9 /* M13BadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA08ED8718B58A0500A7FD9B /* M13BadgeView.m */; };
-		628493D41D0EE6E700C4BDA9 /* M13BadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = CA08ED8618B58A0500A7FD9B /* M13BadgeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		628493EB1D0EF5EB00C4BDA9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA58BD7318B93C51002E6EB9 /* QuartzCore.framework */; };
 		628493EC1D0EF5EF00C4BDA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA08ED5118B5898100A7FD9B /* UIKit.framework */; };
 		CA08ED4E18B5898100A7FD9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA08ED4D18B5898100A7FD9B /* Foundation.framework */; };
 		CA08ED5218B5898100A7FD9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA08ED5118B5898100A7FD9B /* UIKit.framework */; };
-		CA08ED5818B5898100A7FD9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA08ED5618B5898100A7FD9B /* InfoPlist.strings */; };
-		CA08ED5A18B5898100A7FD9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA08ED5918B5898100A7FD9B /* main.m */; };
-		CA08ED5E18B5898100A7FD9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA08ED5D18B5898100A7FD9B /* AppDelegate.m */; };
-		CA08ED6118B5898100A7FD9B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA08ED5F18B5898100A7FD9B /* Main_iPhone.storyboard */; };
-		CA08ED6418B5898100A7FD9B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA08ED6218B5898100A7FD9B /* Main_iPad.storyboard */; };
-		CA08ED6718B5898100A7FD9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA08ED6618B5898100A7FD9B /* ViewController.m */; };
-		CA08ED6918B5898100A7FD9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA08ED6818B5898100A7FD9B /* Images.xcassets */; };
-		CA08ED7018B5898100A7FD9B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA08ED6F18B5898100A7FD9B /* XCTest.framework */; };
 		CA08ED7118B5898100A7FD9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA08ED4D18B5898100A7FD9B /* Foundation.framework */; };
 		CA08ED7218B5898100A7FD9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA08ED5118B5898100A7FD9B /* UIKit.framework */; };
 		CA08ED7A18B5898100A7FD9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA08ED7818B5898100A7FD9B /* InfoPlist.strings */; };
@@ -63,30 +64,31 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		626E02F01ECEE4B100002CB5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		626E02F11ECEE4B100002CB5 /* M13BadgeViewFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13BadgeViewFramework.h; sourceTree = "<group>"; };
+		626E02F21ECEE4B100002CB5 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		626E02F41ECEE4B100002CB5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		626E02F51ECEE4B100002CB5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		626E02F71ECEE4B100002CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		626E02F91ECEE4B100002CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		626E02FB1ECEE4B100002CB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		626E02FC1ECEE4B100002CB5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		626E02FD1ECEE4B100002CB5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		626E02FE1ECEE4B100002CB5 /* M13BadgeView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "M13BadgeView-Prefix.pch"; sourceTree = "<group>"; };
+		626E02FF1ECEE4B100002CB5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		626E03001ECEE4B100002CB5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		626E03011ECEE4B100002CB5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		626E030C1ECEE4BD00002CB5 /* M13BadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13BadgeView.h; sourceTree = "<group>"; };
+		626E030D1ECEE4BD00002CB5 /* M13BadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13BadgeView.m; sourceTree = "<group>"; };
+		626E03131ECEE5E700002CB5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		628493C61D0EE6C600C4BDA9 /* M13BadgeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M13BadgeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		628493C81D0EE6C600C4BDA9 /* M13BadgeViewFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M13BadgeViewFramework.h; sourceTree = "<group>"; };
-		628493CA1D0EE6C600C4BDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA08ED4A18B5898100A7FD9B /* M13BadgeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M13BadgeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA08ED4A18B5898100A7FD9B /* M13BadgeViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M13BadgeViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA08ED4D18B5898100A7FD9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CA08ED5118B5898100A7FD9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		CA08ED5518B5898100A7FD9B /* M13BadgeView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "M13BadgeView-Info.plist"; sourceTree = "<group>"; };
-		CA08ED5718B5898100A7FD9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CA08ED5918B5898100A7FD9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CA08ED5B18B5898100A7FD9B /* M13BadgeView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "M13BadgeView-Prefix.pch"; sourceTree = "<group>"; };
-		CA08ED5C18B5898100A7FD9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CA08ED5D18B5898100A7FD9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CA08ED6018B5898100A7FD9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		CA08ED6318B5898100A7FD9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		CA08ED6518B5898100A7FD9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CA08ED6618B5898100A7FD9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CA08ED6818B5898100A7FD9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CA08ED6E18B5898100A7FD9B /* M13BadgeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = M13BadgeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA08ED6F18B5898100A7FD9B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		CA08ED7718B5898100A7FD9B /* M13BadgeViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "M13BadgeViewTests-Info.plist"; sourceTree = "<group>"; };
+		CA08ED7718B5898100A7FD9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA08ED7918B5898100A7FD9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CA08ED7B18B5898100A7FD9B /* M13BadgeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = M13BadgeViewTests.m; sourceTree = "<group>"; };
-		CA08ED8618B58A0500A7FD9B /* M13BadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = M13BadgeView.h; path = Classes/M13BadgeView.h; sourceTree = SOURCE_ROOT; };
-		CA08ED8718B58A0500A7FD9B /* M13BadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = M13BadgeView.m; path = Classes/M13BadgeView.m; sourceTree = SOURCE_ROOT; };
 		CA58BD7318B93C51002E6EB9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -115,7 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA08ED7018B5898100A7FD9B /* XCTest.framework in Frameworks */,
+				626E03141ECEE5E700002CB5 /* XCTest.framework in Frameworks */,
 				CA08ED7218B5898100A7FD9B /* UIKit.framework in Frameworks */,
 				CA08ED7118B5898100A7FD9B /* Foundation.framework in Frameworks */,
 			);
@@ -124,21 +126,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		628493C71D0EE6C600C4BDA9 /* M13BadgeViewFramework */ = {
+		626E02EF1ECEE4B100002CB5 /* M13BadgeView */ = {
 			isa = PBXGroup;
 			children = (
-				628493C81D0EE6C600C4BDA9 /* M13BadgeViewFramework.h */,
-				628493CA1D0EE6C600C4BDA9 /* Info.plist */,
+				626E02F01ECEE4B100002CB5 /* Info.plist */,
+				626E02F11ECEE4B100002CB5 /* M13BadgeViewFramework.h */,
+				626E02F21ECEE4B100002CB5 /* module.modulemap */,
 			);
-			path = M13BadgeViewFramework;
+			path = M13BadgeView;
+			sourceTree = "<group>";
+		};
+		626E02F31ECEE4B100002CB5 /* M13BadgeViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				626E02F41ECEE4B100002CB5 /* AppDelegate.h */,
+				626E02F51ECEE4B100002CB5 /* AppDelegate.m */,
+				626E02F61ECEE4B100002CB5 /* Main_iPad.storyboard */,
+				626E02F81ECEE4B100002CB5 /* Main_iPhone.storyboard */,
+				626E02FA1ECEE4B100002CB5 /* InfoPlist.strings */,
+				626E02FC1ECEE4B100002CB5 /* Images.xcassets */,
+				626E02FE1ECEE4B100002CB5 /* M13BadgeView-Prefix.pch */,
+				626E03001ECEE4B100002CB5 /* ViewController.h */,
+				626E03011ECEE4B100002CB5 /* ViewController.m */,
+				626E03121ECEE4E700002CB5 /* Supporting Files */,
+			);
+			path = M13BadgeViewExample;
+			sourceTree = "<group>";
+		};
+		626E030B1ECEE4BD00002CB5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				626E030C1ECEE4BD00002CB5 /* M13BadgeView.h */,
+				626E030D1ECEE4BD00002CB5 /* M13BadgeView.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		626E03121ECEE4E700002CB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				626E02FD1ECEE4B100002CB5 /* Info.plist */,
+				626E02FF1ECEE4B100002CB5 /* main.m */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		CA08ED4118B5898100A7FD9B = {
 			isa = PBXGroup;
 			children = (
-				CA08ED5318B5898100A7FD9B /* M13BadgeView */,
+				626E030B1ECEE4BD00002CB5 /* Source */,
+				626E02EF1ECEE4B100002CB5 /* M13BadgeView */,
+				626E02F31ECEE4B100002CB5 /* M13BadgeViewExample */,
 				CA08ED7518B5898100A7FD9B /* M13BadgeViewTests */,
-				628493C71D0EE6C600C4BDA9 /* M13BadgeViewFramework */,
 				CA08ED4C18B5898100A7FD9B /* Frameworks */,
 				CA08ED4B18B5898100A7FD9B /* Products */,
 			);
@@ -147,7 +186,7 @@
 		CA08ED4B18B5898100A7FD9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CA08ED4A18B5898100A7FD9B /* M13BadgeView.app */,
+				CA08ED4A18B5898100A7FD9B /* M13BadgeViewExample.app */,
 				CA08ED6E18B5898100A7FD9B /* M13BadgeViewTests.xctest */,
 				628493C61D0EE6C600C4BDA9 /* M13BadgeView.framework */,
 			);
@@ -157,39 +196,12 @@
 		CA08ED4C18B5898100A7FD9B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				626E03131ECEE5E700002CB5 /* XCTest.framework */,
 				CA58BD7318B93C51002E6EB9 /* QuartzCore.framework */,
 				CA08ED4D18B5898100A7FD9B /* Foundation.framework */,
 				CA08ED5118B5898100A7FD9B /* UIKit.framework */,
-				CA08ED6F18B5898100A7FD9B /* XCTest.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CA08ED5318B5898100A7FD9B /* M13BadgeView */ = {
-			isa = PBXGroup;
-			children = (
-				CA08ED8518B589DC00A7FD9B /* Classes */,
-				CA08ED5C18B5898100A7FD9B /* AppDelegate.h */,
-				CA08ED5D18B5898100A7FD9B /* AppDelegate.m */,
-				CA08ED5F18B5898100A7FD9B /* Main_iPhone.storyboard */,
-				CA08ED6218B5898100A7FD9B /* Main_iPad.storyboard */,
-				CA08ED6518B5898100A7FD9B /* ViewController.h */,
-				CA08ED6618B5898100A7FD9B /* ViewController.m */,
-				CA08ED6818B5898100A7FD9B /* Images.xcassets */,
-				CA08ED5418B5898100A7FD9B /* Supporting Files */,
-			);
-			path = M13BadgeView;
-			sourceTree = "<group>";
-		};
-		CA08ED5418B5898100A7FD9B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CA08ED5518B5898100A7FD9B /* M13BadgeView-Info.plist */,
-				CA08ED5618B5898100A7FD9B /* InfoPlist.strings */,
-				CA08ED5918B5898100A7FD9B /* main.m */,
-				CA08ED5B18B5898100A7FD9B /* M13BadgeView-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		CA08ED7518B5898100A7FD9B /* M13BadgeViewTests */ = {
@@ -204,19 +216,10 @@
 		CA08ED7618B5898100A7FD9B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CA08ED7718B5898100A7FD9B /* M13BadgeViewTests-Info.plist */,
+				CA08ED7718B5898100A7FD9B /* Info.plist */,
 				CA08ED7818B5898100A7FD9B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CA08ED8518B589DC00A7FD9B /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				CA08ED8618B58A0500A7FD9B /* M13BadgeView.h */,
-				CA08ED8718B58A0500A7FD9B /* M13BadgeView.m */,
-			);
-			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,17 +229,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				628493C91D0EE6C600C4BDA9 /* M13BadgeViewFramework.h in Headers */,
-				628493D41D0EE6E700C4BDA9 /* M13BadgeView.h in Headers */,
+				626E03111ECEE4D500002CB5 /* M13BadgeViewFramework.h in Headers */,
+				626E030F1ECEE4C300002CB5 /* M13BadgeView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		628493C51D0EE6C600C4BDA9 /* M13BadgeViewFramework */ = {
+		628493C51D0EE6C600C4BDA9 /* M13BadgeView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 628493D11D0EE6C600C4BDA9 /* Build configuration list for PBXNativeTarget "M13BadgeViewFramework" */;
+			buildConfigurationList = 628493D11D0EE6C600C4BDA9 /* Build configuration list for PBXNativeTarget "M13BadgeView" */;
 			buildPhases = (
 				628493C11D0EE6C600C4BDA9 /* Sources */,
 				628493C21D0EE6C600C4BDA9 /* Frameworks */,
@@ -247,14 +250,14 @@
 			);
 			dependencies = (
 			);
-			name = M13BadgeViewFramework;
+			name = M13BadgeView;
 			productName = M13BadgeViewFramework;
 			productReference = 628493C61D0EE6C600C4BDA9 /* M13BadgeView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CA08ED4918B5898100A7FD9B /* M13BadgeView */ = {
+		CA08ED4918B5898100A7FD9B /* M13BadgeViewExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA08ED7F18B5898100A7FD9B /* Build configuration list for PBXNativeTarget "M13BadgeView" */;
+			buildConfigurationList = CA08ED7F18B5898100A7FD9B /* Build configuration list for PBXNativeTarget "M13BadgeViewExample" */;
 			buildPhases = (
 				CA08ED4618B5898100A7FD9B /* Sources */,
 				CA08ED4718B5898100A7FD9B /* Frameworks */,
@@ -266,9 +269,9 @@
 			dependencies = (
 				628493CC1D0EE6C600C4BDA9 /* PBXTargetDependency */,
 			);
-			name = M13BadgeView;
+			name = M13BadgeViewExample;
 			productName = M13BadgeView;
-			productReference = CA08ED4A18B5898100A7FD9B /* M13BadgeView.app */;
+			productReference = CA08ED4A18B5898100A7FD9B /* M13BadgeViewExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CA08ED6D18B5898100A7FD9B /* M13BadgeViewTests */ = {
@@ -300,10 +303,6 @@
 				TargetAttributes = {
 					628493C51D0EE6C600C4BDA9 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 3RCGQ2RRJJ;
-					};
-					CA08ED4918B5898100A7FD9B = {
-						DevelopmentTeam = 3RCGQ2RRJJ;
 					};
 					CA08ED6D18B5898100A7FD9B = {
 						TestTargetID = CA08ED4918B5898100A7FD9B;
@@ -323,9 +322,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CA08ED4918B5898100A7FD9B /* M13BadgeView */,
+				628493C51D0EE6C600C4BDA9 /* M13BadgeView */,
+				CA08ED4918B5898100A7FD9B /* M13BadgeViewExample */,
 				CA08ED6D18B5898100A7FD9B /* M13BadgeViewTests */,
-				628493C51D0EE6C600C4BDA9 /* M13BadgeViewFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -342,10 +341,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA08ED6418B5898100A7FD9B /* Main_iPad.storyboard in Resources */,
-				CA08ED6918B5898100A7FD9B /* Images.xcassets in Resources */,
-				CA08ED6118B5898100A7FD9B /* Main_iPhone.storyboard in Resources */,
-				CA08ED5818B5898100A7FD9B /* InfoPlist.strings in Resources */,
+				626E03071ECEE4B100002CB5 /* Images.xcassets in Resources */,
+				626E03061ECEE4B100002CB5 /* InfoPlist.strings in Resources */,
+				626E03041ECEE4B100002CB5 /* Main_iPad.storyboard in Resources */,
+				626E03051ECEE4B100002CB5 /* Main_iPhone.storyboard in Resources */,
+				626E03081ECEE4B100002CB5 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				628493D31D0EE6DD00C4BDA9 /* M13BadgeView.m in Sources */,
+				626E03101ECEE4CB00002CB5 /* M13BadgeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,9 +372,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA08ED6718B5898100A7FD9B /* ViewController.m in Sources */,
-				CA08ED5E18B5898100A7FD9B /* AppDelegate.m in Sources */,
-				CA08ED5A18B5898100A7FD9B /* main.m in Sources */,
+				626E030A1ECEE4B100002CB5 /* ViewController.m in Sources */,
+				626E03091ECEE4B100002CB5 /* main.m in Sources */,
+				626E03031ECEE4B100002CB5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,39 +391,39 @@
 /* Begin PBXTargetDependency section */
 		628493CC1D0EE6C600C4BDA9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 628493C51D0EE6C600C4BDA9 /* M13BadgeViewFramework */;
+			target = 628493C51D0EE6C600C4BDA9 /* M13BadgeView */;
 			targetProxy = 628493CB1D0EE6C600C4BDA9 /* PBXContainerItemProxy */;
 		};
 		CA08ED7418B5898100A7FD9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CA08ED4918B5898100A7FD9B /* M13BadgeView */;
+			target = CA08ED4918B5898100A7FD9B /* M13BadgeViewExample */;
 			targetProxy = CA08ED7318B5898100A7FD9B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CA08ED5618B5898100A7FD9B /* InfoPlist.strings */ = {
+		626E02F61ECEE4B100002CB5 /* Main_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CA08ED5718B5898100A7FD9B /* en */,
+				626E02F71ECEE4B100002CB5 /* Base */,
 			);
-			name = InfoPlist.strings;
+			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
-		CA08ED5F18B5898100A7FD9B /* Main_iPhone.storyboard */ = {
+		626E02F81ECEE4B100002CB5 /* Main_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CA08ED6018B5898100A7FD9B /* Base */,
+				626E02F91ECEE4B100002CB5 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		CA08ED6218B5898100A7FD9B /* Main_iPad.storyboard */ = {
+		626E02FA1ECEE4B100002CB5 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CA08ED6318B5898100A7FD9B /* Base */,
+				626E02FB1ECEE4B100002CB5 /* en */,
 			);
-			name = Main_iPad.storyboard;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 		CA08ED7818B5898100A7FD9B /* InfoPlist.strings */ = {
@@ -440,23 +440,24 @@
 		628493CF1D0EE6C600C4BDA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = M13BadgeViewFramework/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/M13BadgeView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = M13BadgeView/module.modulemap;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.BrandonMcQuilkin.M13BadgeViewNew.M13BadgeViewFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrandonMcQuilkin.M13BadgeView;
 				PRODUCT_NAME = M13BadgeView;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -467,23 +468,25 @@
 		628493D01D0EE6C600C4BDA9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = M13BadgeViewFramework/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/M13BadgeView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = M13BadgeView/module.modulemap;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.BrandonMcQuilkin.M13BadgeViewNew.M13BadgeViewFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrandonMcQuilkin.M13BadgeView;
 				PRODUCT_NAME = M13BadgeView;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -509,6 +512,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -571,9 +575,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "M13BadgeView/M13BadgeView-Prefix.pch";
-				INFOPLIST_FILE = "M13BadgeView/M13BadgeView-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/M13BadgeViewExample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BrandonMcQuilkin.${PRODUCT_NAME:rfc1034identifier}";
@@ -587,9 +592,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "M13BadgeView/M13BadgeView-Prefix.pch";
-				INFOPLIST_FILE = "M13BadgeView/M13BadgeView-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/M13BadgeViewExample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BrandonMcQuilkin.${PRODUCT_NAME:rfc1034identifier}";
@@ -602,6 +608,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/M13BadgeView.app/M13BadgeView";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -625,6 +632,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/M13BadgeView.app/M13BadgeView";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -643,7 +651,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		628493D11D0EE6C600C4BDA9 /* Build configuration list for PBXNativeTarget "M13BadgeViewFramework" */ = {
+		628493D11D0EE6C600C4BDA9 /* Build configuration list for PBXNativeTarget "M13BadgeView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				628493CF1D0EE6C600C4BDA9 /* Debug */,
@@ -661,7 +669,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA08ED7F18B5898100A7FD9B /* Build configuration list for PBXNativeTarget "M13BadgeView" */ = {
+		CA08ED7F18B5898100A7FD9B /* Build configuration list for PBXNativeTarget "M13BadgeViewExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA08ED8018B5898100A7FD9B /* Debug */,
